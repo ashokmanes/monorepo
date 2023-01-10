@@ -1,0 +1,25 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "This is npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashokmanes/monorepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashokmanes/monorepo/issues"
+  },
+  "homepage": "https://github.com/ashokmanes/monorepo#readme",
+  "dependencies": {
+    "lerna": "^6.4.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
